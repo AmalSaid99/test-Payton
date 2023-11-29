@@ -16,8 +16,8 @@ class cy(sh):
             return "the area of cr is: ".format(self.col,self.nam,self.area,self.discr)
     def __str__(self):
         return"are".format(self.col,self.nam)
-sq1= sh("blue","sss","hhh" )
-cy1= sh("red","ccc",5,"cccc" )
+sq1= sh("blue","hhh",7 )
+cy1= sh("red","cccc",9 )
 print(sq1.__str__())
 print(sq1)
 print(cy1)
